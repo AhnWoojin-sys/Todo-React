@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-=======
 # Todo-React
 투두앱 리엑트로 변경
 =======
->>>>>>> a2f517d06a57740c2cb23814de35dd3b998341f6
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
