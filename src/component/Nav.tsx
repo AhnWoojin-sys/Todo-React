@@ -2,7 +2,9 @@ import React, {useState} from 'react';
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
 import { Navbar, Nav, Container, NavDropdown, Row, Col} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logoimg from './images/logo.png'
+import logoimg from './images/logo.png';
+import styled from 'styled-components';
+
 
 
 function Navigation(){
@@ -17,6 +19,8 @@ function Navigation(){
                         className="d-inline-block align-top"
                         alt="TodoApp logo"
                     />  TodoApp</Navbar.Brand>
+                    <Nav>
+                    </Nav>
                     <Nav className="mr-auto">
                         <NavDropdown title="List" id="basic-nav-dropdown">
                         </NavDropdown>
